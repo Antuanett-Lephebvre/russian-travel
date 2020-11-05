@@ -1,0 +1,29 @@
+.place{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .place{
+        padding-top: 49px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .place{
+        padding-top: 73px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .place{
+        padding-top: 110px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .place{
+        padding-top: 80px;
+    }
+}

@@ -1,0 +1,12 @@
+.place_part_second{
+    display: flex;
+    flex-direction: row;
+    padding-top: 48px;
+}
+
+@media (max-width: 768px) {
+    .place_part_second{
+        padding-bottom: 32px;
+        flex-direction: column;
+    }
+}

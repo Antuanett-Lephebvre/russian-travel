@@ -1,0 +1,32 @@
+.lead__image{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+    
+@media (max-width: 1023px){
+    .lead__image{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+}
+    
+@media (min-width: 1024px) and (max-width: 1279px){
+    .lead__image{
+        width: 928px;
+        height: 580px;
+    }
+}
+    
+@media (min-width: 1280px){
+    .lead__image{
+        width: 984px;
+        height: 615px;
+    }
+}
