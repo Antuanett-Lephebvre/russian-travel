@@ -1,0 +1,26 @@
+.cover__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 560px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.cover__text:visited {
+    color: #FFFFFF;
+   }
+
+@media (max-width: 768px){
+    .cover__text{
+        height: 134px;
+    }
+}
+
+@media (min-width: 768px){
+    .cover__text{
+        height: 250px;
+    }
+}

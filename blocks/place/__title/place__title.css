@@ -1,0 +1,40 @@
+.place__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .place__title{
+        padding-left: 16px;
+        font-size: 32px;
+        line-height: 109%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .place__title{
+        padding-left: 24px;
+        font-size: 42px;
+        line-height: 110%;
+        width: 340px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .place__title{
+        padding-left: 48px;
+        font-size: 72px;
+        line-height: 106%;
+        width: 440px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .place__title{
+        font-size: 76px;
+        line-height: 106%;
+        width: 460px;
+    }
+}

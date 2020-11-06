@@ -1,0 +1,29 @@
+.place__paragraph_number_second{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    .place__paragraph_number_second{
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .place__paragraph_number_second{
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .place__paragraph_number_second{
+        margin-top: 27px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .place__paragraph_number_second{
+        margin-top: 27px;
+    }
+}
